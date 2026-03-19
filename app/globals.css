@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/KXQPPZYJMFFJJJVQEP2XQBDD5RQVFYZE/OWOAUVWMMVZC756PPOEBFISHWJRBRPQP.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/4PA6P3KP5GHSVQSYCDSQXWWKKXMDTLGG/K4BRSCPZOCYG74K2FH5RVPUPKQJ6TRVP.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/RZI3N3F4CMFDLHGGIZFLZ6HI2JDUHZRP/CHUXJNQAGNT5KK24KDA7RDYKNKQFFRRX.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/S5YUPWITHJKI3UAAM7V57BKWMZ7DDAYF/6AU5B2PGYIQFBYQYK456J77DDMMPDKZQ.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/MHXWLBYR6JFKMHJ3OSHWWCNQVBZAKFM5/ZR5ZWTTYLIZK5AMQXZQPHKPLCTUMM5PF.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("https://cdn.fontshare.com/wf/GQXBORYP36LU2NMRVFCFYICPF24DSSAZ/CJTQTYPJ7SSGPAUU4F7XZWHFHAQCYJG4/2LTGN6GTIZTFRR5KMMRPB7OAXUXY2TJM.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --chiro-black: #0a0a0a;
+  --chiro-charcoal: #1a1a1a;
+  --chiro-dark: #141414;
+  --chiro-silver: #c0c0c0;
+  --chiro-gray: #8a8a8a;
+  --chiro-light: #e5e5e5;
+}
+
+@theme inline {
+  --color-chiro-black: var(--chiro-black);
+  --color-chiro-charcoal: var(--chiro-charcoal);
+  --color-chiro-dark: var(--chiro-dark);
+  --color-chiro-silver: var(--chiro-silver);
+  --color-chiro-gray: var(--chiro-gray);
+  --color-chiro-light: var(--chiro-light);
+  --font-sans: "General Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--chiro-black);
+  color: var(--chiro-light);
+  font-family: "General Sans", sans-serif;
+}
+
+body {
+  background-color: var(--chiro-black);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--chiro-silver);
+  color: var(--chiro-black);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
