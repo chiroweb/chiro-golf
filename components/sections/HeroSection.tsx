@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Logo from "@/components/common/Logo";
-import { BRAND } from "@/lib/constants";
+import { BRAND, PLACEHOLDER } from "@/lib/constants";
 
 export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -59,20 +59,18 @@ export default function HeroSection() {
       ref={sectionRef}
       className="relative w-full h-[100dvh] overflow-hidden"
     >
-      {/* Video / Gradient Background */}
+      {/* Hero background image */}
       <div
         ref={videoRef}
         className="absolute inset-0 will-change-transform"
-        style={{
-          background: "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 30%, #16213e 60%, #0a0a0a 100%)",
-        }}
+        style={{ background: PLACEHOLDER.heroBg }}
       />
 
-      {/* Dark overlay gradient */}
+      {/* Refined cinematic overlay */}
       <div
         className="absolute inset-0"
         style={{
-          background: "linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.7) 100%)",
+          background: "linear-gradient(to bottom, rgba(10,10,10,0.35) 0%, rgba(10,10,10,0.5) 50%, rgba(10,10,10,0.72) 100%)",
         }}
       />
 

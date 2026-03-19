@@ -44,7 +44,7 @@ export default function EditorialSection() {
       {/* Editorial headline */}
       <div className="mb-16 md:mb-32">
         <SplitText
-          className="text-[8vw] md:text-[6vw] font-[200] text-chiro-silver tracking-[0.05em] text-center"
+          className="text-[8vw] md:text-[6vw] font-[200] text-chiro-black tracking-[0.05em] text-center"
           scrub
         >
           CRAFTED FOR THE COURSE

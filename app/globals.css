@@ -55,12 +55,13 @@
 }
 
 :root {
-  --chiro-black: #0a0a0a;
-  --chiro-charcoal: #1a1a1a;
-  --chiro-dark: #141414;
-  --chiro-silver: #c0c0c0;
-  --chiro-gray: #8a8a8a;
-  --chiro-light: #e5e5e5;
+  /* Light mode palette */
+  --chiro-black: #111111;       /* dark text, accents */
+  --chiro-charcoal: #e8e4dd;    /* borders, subtle surfaces */
+  --chiro-dark: #f2efe8;        /* off-white surface bg */
+  --chiro-silver: #3d3d3d;      /* secondary text */
+  --chiro-gray: #999999;        /* muted labels */
+  --chiro-light: #fafaf8;       /* main background (warm white) */
 }
 
 @theme inline {
@@ -80,19 +81,20 @@
 }
 
 html {
-  background-color: var(--chiro-black);
-  color: var(--chiro-light);
+  background-color: var(--chiro-light);
+  color: var(--chiro-black);
   font-family: "General Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--chiro-black);
+  background-color: var(--chiro-light);
   overflow-x: hidden;
 }
 
 ::selection {
-  background-color: var(--chiro-silver);
-  color: var(--chiro-black);
+  background-color: var(--chiro-black);
+  color: var(--chiro-light);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -31,7 +31,7 @@ export default function Navigation() {
         animate={{ opacity: visible ? 1 : 0 }}
         transition={{ duration: 0.8 }}
       >
-        <Logo size="sm" className="text-chiro-light" />
+        <Logo size="sm" className="text-chiro-black" />
 
         <button
           onClick={() => setIsOpen(!isOpen)}

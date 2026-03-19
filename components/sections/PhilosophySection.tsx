@@ -66,7 +66,7 @@ export default function PhilosophySection() {
         {PHILOSOPHY_LINES.map((line, i) => (
           <div key={i} className="w-full flex flex-col items-center">
             <div
-              className="philosophy-line whitespace-nowrap text-chiro-light text-center"
+              className="philosophy-line whitespace-nowrap text-chiro-black text-center"
               style={{
                 fontSize: `clamp(1.5rem, ${line.size}, 8rem)`,
                 fontWeight: line.weight,

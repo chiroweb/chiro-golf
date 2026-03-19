@@ -27,16 +27,17 @@ export const COLLECTIONS = [
 
 export const PLACEHOLDER = {
   heroVideo: null,
+  heroBg: "url('https://picsum.photos/seed/highland/1920/1080') center/cover no-repeat",
   editorialImages: [
-    "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%)",
-    "linear-gradient(225deg, #141414 0%, #252525 50%, #141414 100%)",
-    "linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%)",
-    "linear-gradient(45deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%)",
+    "url('https://picsum.photos/seed/golfgreen/800/1000') center/cover no-repeat",
+    "url('https://picsum.photos/seed/fairway/800/1000') center/cover no-repeat",
+    "url('https://picsum.photos/seed/morning/800/800') center/cover no-repeat",
+    "url('https://picsum.photos/seed/links/1920/700') center/cover no-repeat",
   ],
   collectionImages: [
-    "linear-gradient(135deg, #1a1a1a 0%, #333 100%)",
-    "linear-gradient(225deg, #141414 0%, #2a2a2a 100%)",
-    "linear-gradient(315deg, #1a1a1a 0%, #2d2d2d 100%)",
-    "linear-gradient(45deg, #141414 0%, #333 100%)",
+    "url('https://picsum.photos/seed/glove/600/800') center/cover no-repeat",
+    "url('https://picsum.photos/seed/marker/600/800') center/cover no-repeat",
+    "url('https://picsum.photos/seed/pouch/600/800') center/cover no-repeat",
+    "url('https://picsum.photos/seed/accessory/600/800') center/cover no-repeat",
   ],
 } as const;

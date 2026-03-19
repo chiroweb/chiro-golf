@@ -77,7 +77,7 @@ export default function CollectionSection() {
               <p className="text-xs tracking-[0.3em] text-chiro-gray uppercase mb-1">
                 {col.subtitle}
               </p>
-              <h3 className="text-2xl font-[500] text-chiro-light tracking-[0.1em] uppercase">
+              <h3 className="text-2xl font-[500] text-chiro-black tracking-[0.1em] uppercase">
                 {col.name}
               </h3>
             </div>
@@ -93,7 +93,7 @@ export default function CollectionSection() {
         {/* Section label */}
         <div className="flex-shrink-0 w-[20vw] flex flex-col justify-center">
           <p className="text-xs tracking-[0.3em] text-chiro-gray uppercase mb-4">Collections</p>
-          <h2 className="text-4xl font-[200] text-chiro-light tracking-[0.1em]">
+          <h2 className="text-4xl font-[200] text-chiro-black tracking-[0.1em]">
             Explore<br />Our Lines
           </h2>
         </div>
@@ -110,7 +110,7 @@ export default function CollectionSection() {
             <p className="text-xs tracking-[0.3em] text-chiro-gray uppercase mb-1">
               {col.subtitle}
             </p>
-            <h3 className="text-xl font-[500] text-chiro-light tracking-[0.1em] uppercase">
+            <h3 className="text-xl font-[500] text-chiro-black tracking-[0.1em] uppercase">
               {col.name}
             </h3>
           </div>
